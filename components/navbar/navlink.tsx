@@ -11,6 +11,7 @@ const Navlink = () => {
     <>
       <button
         onClick={() => setOpen(!open)}
+        aria-label="Toggle menu"
         className="inline-flex items-center p-2 justify-center text-sm text-gray-500 rounded-sm md:hidden hover:bg-gray-100"
       >
         {!open ? <IoMenu className="size-8" /> : <IoClose className="size-8" />}
@@ -24,7 +25,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 ronded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
             >
               Home
             </Link>
@@ -32,7 +33,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/about"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 ronded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
             >
               About
             </Link>
@@ -40,7 +41,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/room"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 ronded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
             >
               Room
             </Link>
@@ -48,7 +49,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/contact"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 ronded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
             >
               Contact
             </Link>
@@ -56,7 +57,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/myreservation"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 ronded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
             >
               My Reservation
             </Link>
@@ -64,7 +65,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/admin/dashboard"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 ronded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
             >
               Dashboard
             </Link>
@@ -72,7 +73,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/admin/room"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 ronded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
             >
               Manage Room
             </Link>
