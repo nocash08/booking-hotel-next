@@ -4,7 +4,7 @@ import { IoPeopleOutline } from "react-icons/io5"
 
 const Card = () => {
   return (
-    <div className="bg-white shadow-lg rounded-sm transition duration-100 hover:shadow-sm">
+    <div className="bg-white shadow-lg rounded-sm transition duration-100 hover:shadow-md">
       <div className="h-[260px] w-auto rounded-t-sm relative">
         <Image
           src="/hero.jpg"
@@ -18,18 +18,18 @@ const Card = () => {
         <h4 className="text-2xl font-medium">
           <Link
             href="#"
-            className="hover:text-shadow-gray-800 transition duration-150"
+            className="hover:text-gray-800 transition duration-150"
           >
             Luxury Room
           </Link>
         </h4>
         <h4 className="text-2xl mb-7">
-          <span className="font-semibold text-gray-600">Rp 2100000</span>
-          <span className="text-gray-400 text-sm">/Night</span>
+          <span className="font-semibold text-gray-600">Rp 2.100.000</span>
+          <span className="text-gray-400 text-sm"> / Night</span>
         </h4>
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <IoPeopleOutline />
+          <div className="flex items-center space-x-2 text-gray-600">
+            <IoPeopleOutline className="text-xl" />
             <span>2 People</span>
           </div>
           <Link
