@@ -1,0 +1,17 @@
+{
+  "node": {
+    "00f81dd3b4849f9fd1466a9628e933431fcbff9cf2": {
+      "workers": {
+        "app/signin/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Chp%5C%5CDesktop%5C%5Cbooking-hotel%5C%5Ccomponents%5C%5Clogin-button.tsx%22%2C%5B%7B%22id%22%3A%2200f81dd3b4849f9fd1466a9628e933431fcbff9cf2%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/signin/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "oxWuDoLAg9PR5ePcLJbi8jGyA9Z1mrtTxizNCN0IdRU="
+}
